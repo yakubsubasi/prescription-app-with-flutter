@@ -1,0 +1,123 @@
+[
+  {
+    "id": "1",
+    "name": "Kriptik tonsillit reçete",
+    "recete": "Klamoks 1000 2*1,",
+    "bölümler": [
+      "Acil",
+      "İç Hastalıkları",
+      "Kulak Burun Boğaz"
+    ]
+  },
+  
+  {
+    "id": "2",
+    "name": "Koah Alevlenmesi",
+    "recete": "Klamoks 1000 mg 2*1",
+    "bölümler": [
+      "Göğüs Hastalıkları"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Otitis Eksterna",
+    "recete": "Siprogut Damla 4*2, Onadron Damla 4*2",
+    "bölümler": [
+      "Kulak Burun Boğaz",
+      "Aile Hekimliği"
+      ]
+  },{
+    "id": "4",
+    "name": "Otitis Media",
+    "recete": "Klamoks 1000 2*1,",
+    "bölümler": [
+      "Acil",
+      "Kulak Burun Boğaz"
+    ]
+  },{
+    "id": "5",
+    "name": "Sistit",
+    "recete": "Monurol 1*1, Ultraceff 500 mg 2*1",
+    "bölümler": [
+      "Acil",
+      "Aile Hekimliği",
+      "Üroloji"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Faranjit",
+    "recete": "Tanflex Gargara 3*1, A-Ferin Forte 3*1",
+    "bölümler": [
+      "Acil",
+      "Aile Hekimliği",
+      "Kulak Burun Boğaz"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Gastroenterit",
+    "recete": "Buscopan 3*1",
+    "bölümler": [
+      "Acil",
+      "Aile Hekimliği",
+      "İç Hastalıkları"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Pnomoni",
+    "recete": "Factive 1*1, Parol 3*1",
+    "bölümler": [
+      "Acil",
+      "Göğüs Hastalıkları",
+      "İç Hastalıkları"
+    ]
+  },{
+    "id": "5",
+    "name": "Pnomoni",
+    "recete": "Factive 1*1, Parol 3*1",
+    "bölümler": [
+      "Acil",
+      "Göğüs Hastalıkları",
+      "İç Hastalıkları"
+    ]
+  },{
+    "id": "5",
+    "name": "Pnomoni",
+    "recete": "Factive 1*1, Parol 3*1",
+    "bölümler": [
+      "Acil",
+      "Göğüs Hastalıkları",
+      "İç Hastalıkları"
+    ]
+  },{
+    "id": "5",
+    "name": "Pnomoni",
+    "recete": "Factive 1*1, Parol 3*1",
+    "bölümler": [
+      "Acil",
+      "Göğüs Hastalıkları",
+      "İç Hastalıkları"
+    ]
+  },{
+    "id": "5",
+    "name": "Pnomoni",
+    "recete": "Factive 1*1, Parol 3*1",
+    "bölümler": [
+      "Acil",
+      "Göğüs Hastalıkları",
+      "İç Hastalıkları"
+    ]
+  },{
+    "id": "5",
+    "name": "Pnomoni",
+    "recete": "Factive 1*1, Parol 3*1",
+    "bölümler": [
+      "Acil",
+      "Göğüs Hastalıkları",
+      "İç Hastalıkları"
+    ]
+  }
+
+]
