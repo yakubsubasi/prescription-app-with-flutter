@@ -59,7 +59,7 @@ void filterSearchResult(String? query) {}
           ),),
         ), Padding(
           padding: const EdgeInsets.all(8.0),
-          child:  IconButton(icon: Icon(Icons.filter) ,onPressed: () {},) ),
+          child:  Card(child: IconButton(icon: Icon(Icons.filter_alt_sharp) ,onPressed: () {},)) ),
        
        
       
