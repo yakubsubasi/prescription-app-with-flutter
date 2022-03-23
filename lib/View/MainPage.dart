@@ -21,7 +21,6 @@ class _MainPageState extends State<MainPage> {
   late  List<Recete> _tumReceteler = [];
   List<String> _allSpecialities = [];
 
-  String _selectedSpeciality = "Hepsi";
 
   @override
   void  initState() {
@@ -46,10 +45,6 @@ class _MainPageState extends State<MainPage> {
       }
         _allSpecialities = allSpecialitiesTemp.toSet().toList();
         _allSpecialities.insert(0, "Hepsi");
-
-
-
-     //_allSpecialities = _tumReceteler.map((recete) => recete.speciality )..map((e).toList();
 
       });
 
