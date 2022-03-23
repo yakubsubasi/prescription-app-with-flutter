@@ -15,19 +15,19 @@ class Recete {
         this.id,
         this.name,
         this.recete,
-        this.blmler,
+        this.speciality,
     });
 
     String? id;
     String? name;
     String? recete;
-    List<String>? blmler;
+    List<String>? speciality;
 
     factory Recete.fromJson(Map<String, dynamic> json) => Recete(
         id: json["id"],
         name: json["name"],
         recete: json["recete"],
-        blmler: List<String>.from(json["bölümler"].map((x) => x)),
+        speciality: List<String>.from(json["bölümler"].map((x) => x)),
     );
 
     
@@ -36,6 +36,6 @@ class Recete {
         "id": id,
         "name": name,
         "recete": recete,
-        "bölümler": List<dynamic>.from(blmler!.map((x) => x)),
+        "bölümler": List<dynamic>.from(speciality!.map((x) => x)),
     };
 }
