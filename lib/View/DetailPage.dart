@@ -6,15 +6,29 @@ class DetailPage extends StatelessWidget {
 
   const DetailPage({required this.recete});
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(recete.name?? ""),
-      ),
-      body: Center(
-        child: Text(recete.recete?? ""),
-      ),
+ 
+      body: Container(child: Row(children: [buildPrescriptionTitle(),],),)
+      
     );
   }
+
+  Widget buildPrescriptionTitle() {
+  return Container(
+    margin: EdgeInsets.fromLTRB(32, 112, 32, 32),
+    child: Text(
+      recete.name ?? "",
+      style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+    )  );
 }
+
+
+
+
+
+
+}
+
