@@ -1,0 +1,128 @@
+[
+    {
+        "id": "1",
+        "name": "Kriptik tonsillit",
+        "prescriptions": [
+            {
+                "medicines": [
+                    {
+                        "name": "Klamoks 1000 mg Tbl",
+                        "howOften": "3",
+                        "howMany": "1",
+                        "units": "tablet"
+                    },
+                    {
+                        "name": "A-Ferin Sinüs Tb",
+                        "howOften": "3",
+                        "howMany": "1",
+                        "units": "tablet"
+                    },
+                    {
+                        "name": "Tanflex Gargara",
+                        "howOften": "3",
+                        "howMany": "1"
+                    }
+                ],
+                "explanation": "Eğer orofarinkste kriptler görülürse AB başlanmalı, tensor kriterlerine bakınız"
+            },
+            {
+                "medicines": [
+                    {
+                        "name": "Augmentin 1000 mg Tb",
+                        "howOften": "3",
+                        "howMany": "1",
+                        "units": "tablet"
+                    },
+                    {
+                        "name": "Theraflu Tb",
+                        "howOften": "3",
+                        "howMany": "1",
+                        "units": "tablet"
+                    },
+                    {
+                        "name": "Majezik Gargara",
+                        "howOften": "3",
+                        "howMany": "1",
+                        "howToUse": "tüm boğaza gargara"
+                    }
+                ]
+            }
+        ],
+        "bölümler": [
+            "Acil",
+            "İç Hastalıkları",
+            "Kulak Burun Boğaz"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Bakteriyel Konjonktivit",
+        "prescriptions": [
+            {
+                "medicines": [
+                    {
+                        "name": "Tobrased Göz Damlası",
+                        "howOften": "3",
+                        "howMany": "2",
+                        "units": "damla",
+                        "periode": "7 gün"
+                    }
+                ]
+            },
+            {
+                "medicines": [
+                    {
+                        "name": "Augmentin 1000 mg Tb",
+                        "howOften": "3",
+                        "howMany": "1",
+                        "units": "tablet"
+                    },
+                    {
+                        "name": "Theraflu Tb",
+                        "howOften": "3",
+                        "howMany": "1",
+                        "units": "tablet"
+                    },
+                    {
+                        "name": "Majezik Gargara",
+                        "howOften": "3",
+                        "howMany": "1"
+                    }
+                ]
+            }
+        ],
+        "bölümler": [
+            "Göz",
+            "Aile Hekimliği",
+            "Acil"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Allerjik konjonktivit",
+        "prescriptions": [
+            {
+                "medicines": [
+                    {
+                        "name": "Patanol %0.15 ml oftalmik solüsyon",
+                        "howOften": "6",
+                        "howMany": "1",
+                        "units": "damla",
+                        "howToUse": "göze damlatılacak"
+                    },
+                    {
+                        "name": "Aerius 5 mg 20 tb",
+                        "howOften": "1",
+                        "howMany": "1",
+                        "units": "tablet"
+                    }
+                ]
+            }
+        ],
+        "bölümler": [
+            "Göz",
+            "İç Hastalıkları",
+            "Kulak Burun Boğaz"
+        ]
+    }
+]  

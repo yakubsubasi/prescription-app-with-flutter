@@ -14,19 +14,19 @@ class Recete {
     Recete({
         this.id,
         this.name,
-        this.recete,
+        this.medicines,
         this.speciality,
     });
 
     String? id;
     String? name;
-    String? recete;
+    List<String>? medicines;
     List<String>? speciality;
 
     factory Recete.fromJson(Map<String, dynamic> json) => Recete(
         id: json["id"],
         name: json["name"],
-        recete: json["recete"],
+        medicines: List<String>.from(json["medicines"].map((x) => x)),
         speciality: List<String>.from(json["bölümler"].map((x) => x)),
     );
 
@@ -35,7 +35,7 @@ class Recete {
     Map<String, dynamic> toJson() => {
         "id": id,
         "name": name,
-        "recete": recete,
+        "recete": medicines,
         "bölümler": List<dynamic>.from(speciality!.map((x) => x)),
     };
 }
