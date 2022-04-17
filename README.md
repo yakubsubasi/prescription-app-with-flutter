@@ -1,4 +1,4 @@
-# recete_app
+# Prescription_app
 
 A prescription list app for medical doctors. 
 
